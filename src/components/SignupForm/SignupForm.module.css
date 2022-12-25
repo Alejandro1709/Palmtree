@@ -1,0 +1,23 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5px;
+}
+
+input {
+  border: 1px solid #eee;
+  padding: 12px 14px;
+  outline: none;
+}
+
+.Submit {
+  text-align: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.Submit:hover {
+  color: #ddd;
+}

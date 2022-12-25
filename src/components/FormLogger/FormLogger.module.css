@@ -1,0 +1,13 @@
+.Messages {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.Message {
+  padding: 5px;
+  width: 31.25rem;
+  background-color: white;
+  border-radius: 6px;
+}

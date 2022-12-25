@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Wrapper from './components/Wrapper/Wrapper';
+import AuthForm from './components/AuthForm';
+import FormLogger from './components/FormLogger/FormLogger';
+import styles from './App.module.css';
 
 function App() {
+  const [isInLogginMode, setIsInLogginMode] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+      <div className={styles.Content}>
+        <AuthForm
+          isInLogginMode={isInLogginMode}
+          setIsInLogginMode={setIsInLogginMode}
+        />
+        <FormLogger />
+      </div>
+    </Wrapper>
   );
 }
 
