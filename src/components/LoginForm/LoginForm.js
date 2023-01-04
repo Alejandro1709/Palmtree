@@ -18,7 +18,7 @@ function LoginForm({ isInLogginMode }) {
   };
 
   return (
-    <form className={styles.Form} onSubmit={handleSubmit}>
+    <form className={styles.Form} onSubmit={handleSubmit} autoComplete={false}>
       <input
         type='text'
         id='email'

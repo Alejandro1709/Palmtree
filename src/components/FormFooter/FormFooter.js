@@ -5,7 +5,7 @@ function FormFooter({ isInLogginMode }) {
   return (
     <footer className={styles.Footer}>
       <button className={styles.Submit} type='submit'>
-        {isInLogginMode ? 'Login' : 'Sign Up'}
+        {isInLogginMode ? 'Login' : 'Create Account'}
       </button>
     </footer>
   );
