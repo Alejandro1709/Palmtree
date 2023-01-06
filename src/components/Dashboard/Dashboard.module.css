@@ -1,0 +1,6 @@
+.DashboardHolder {
+  display: flex;
+  flex-direction: row;
+  gap: 38px;
+  width: 45vw;
+}

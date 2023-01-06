@@ -1,0 +1,79 @@
+.Left {
+  flex: 0.6 0 0;
+}
+
+.Header {
+  padding: 24px 0;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.LinksList,
+.PreviewBody ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Card {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 80px;
+  border-radius: 6px;
+}
+
+.Card .CardLeft {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.Card .CardSpacer {
+  width: 40px;
+  background-color: #efefef;
+}
+
+.Card .CardDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Card button {
+  text-align: center;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.Card .CardRight {
+  display: flex;
+  align-items: center;
+  padding-right: 12px;
+}
+
+.Button {
+  padding: 18px 16px;
+  border: 0;
+  width: 100%;
+  color: white;
+  font-size: 19px;
+  background-color: #a8ce95;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.1 ease;
+  margin-top: 15px;
+}
+
+.Button:hover {
+  transform: scale(1.02);
+  background-color: #85ad71;
+}

@@ -1,0 +1,82 @@
+.DashboardHolder {
+  display: flex;
+  flex-direction: row;
+  gap: 38px;
+  width: 45vw;
+}
+
+.Header {
+  padding: 24px 0;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.PreviewBody ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Button {
+  padding: 18px 16px;
+  border: 0;
+  width: 100%;
+  color: white;
+  font-size: 19px;
+  background-color: #a8ce95;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.1 ease;
+  margin-top: 15px;
+}
+
+.Button:hover {
+  transform: scale(1.02);
+  background-color: #85ad71;
+}
+
+.Right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4 0 0;
+}
+
+.Preview {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.PreviewHeader {
+  text-align: center;
+}
+
+.Preview ul li {
+  padding: 25px;
+  background-color: #a8ce95;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.1 ease;
+}
+
+.Preview ul li:hover {
+  color: white;
+  background-color: #85ad71;
+  transform: scale(1.02);
+}
+.Preview .PreviewFooter {
+  font-size: 21px;
+  text-align: center;
+}
