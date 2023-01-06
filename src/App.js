@@ -1,20 +1,14 @@
-import { useState } from 'react';
 import Wrapper from './components/Wrapper/Wrapper';
-import AuthForm from './components/AuthForm';
-import FormLogger from './components/FormLogger/FormLogger';
 import styles from './App.module.css';
+import AuthPage from './pages/AuthPage';
+import Dashboard from './pages/Dashboard';
 
 function App() {
-  const [isInLogginMode, setIsInLogginMode] = useState(true);
-
   return (
     <Wrapper>
       <div className={styles.Content}>
-        <AuthForm
-          isInLogginMode={isInLogginMode}
-          setIsInLogginMode={setIsInLogginMode}
-        />
-        <FormLogger />
+        {/* <AuthPage /> */}
+        <Dashboard />
       </div>
     </Wrapper>
   );
