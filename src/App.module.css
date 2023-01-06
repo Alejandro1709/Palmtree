@@ -2,7 +2,7 @@
   /* width: 50vw; */
 }
 
-.DashborardHolder {
+.DashboardHolder {
   display: flex;
   flex-direction: row;
   gap: 38px;
