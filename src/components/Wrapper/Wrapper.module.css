@@ -1,7 +1,12 @@
 .Wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .Wrapper {
+    min-height: none;
+  }
 }

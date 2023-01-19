@@ -6,13 +6,13 @@ function AuthPage() {
   const [isInLogginMode, setIsInLogginMode] = useState(true);
 
   return (
-    <div>
+    <>
       <AuthForm
         isInLogginMode={isInLogginMode}
         setIsInLogginMode={setIsInLogginMode}
       />
       <FormLogger />
-    </div>
+    </>
   );
 }
 

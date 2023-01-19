@@ -4,3 +4,10 @@
   gap: 38px;
   width: 45vw;
 }
+
+@media (max-width: 768px) {
+  .DashboardHolder {
+    flex-direction: column;
+    width: 70vw;
+  }
+}

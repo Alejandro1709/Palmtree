@@ -3,7 +3,7 @@ import styles from './PreviewPanel.module.css';
 
 function PreviewPanel() {
   return (
-    <div className={styles.Right}>
+    <aside className={styles.Right}>
       <header className={styles.Header}>
         <h2>Live Preview</h2>
       </header>
@@ -16,6 +16,9 @@ function PreviewPanel() {
             <li>Instagram</li>
             <li>Instagram</li>
             <li>Instagram</li>
+            <li>Instagram</li>
+            <li>Instagram</li>
+            <li>Instagram</li>
           </ul>
         </div>
         <footer className={styles.PreviewFooter}>
@@ -23,7 +26,7 @@ function PreviewPanel() {
         </footer>
       </div>
       <button className={styles.Button}>Save Changes</button>
-    </div>
+    </aside>
   );
 }
 
